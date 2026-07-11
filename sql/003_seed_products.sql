@@ -1,5 +1,5 @@
 -- ============================================================================
--- Zanieri — Test product data
+-- store — Test product data
 -- Run after 001_schema.sql. Inserts ~24 menswear products across every
 -- starter category so the storefront and admin panel have something to
 -- show immediately. No images are set — add photos from /admin, or bulk

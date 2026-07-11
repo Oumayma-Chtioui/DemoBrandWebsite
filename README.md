@@ -1,4 +1,4 @@
-# Zanieri — Boutique en ligne (Next.js + Supabase)
+# store — Boutique en ligne (Next.js + Supabase)
 
 Site e-commerce pour une marque de prêt-à-porter homme tunisienne :
 boutique publique avec commande via WhatsApp, avis clients, et panneau
@@ -60,7 +60,7 @@ NEXT_PUBLIC_SUPABASE_URL=https://votre-projet.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=votre-cle-anon
 SUPABASE_SERVICE_ROLE_KEY=votre-cle-service-role   # optionnel, script local uniquement
 NEXT_PUBLIC_WHATSAPP_NUMBER=21600000000            # numéro par défaut, remplaçable dans /admin/settings
-NEXT_PUBLIC_SITE_URL=https://www.zanieri.tn
+NEXT_PUBLIC_SITE_URL=https://www.store.tn
 ```
 
 ```bash
@@ -147,7 +147,7 @@ scripts/                    — outil d'import local optionnel (service role)
 
 ## Notes de conception
 
-- **Style visuel** : construit à partir du logo signature Zanieri — encre
+- **Style visuel** : construit à partir du logo signature store — encre
   noire sur fond ivoire, typographie serif élégante (Fraunces) associée à
   un sans-serif géométrique (Jost). Les éléments de mise en page (fiches
   produit en forme d'étiquette de vêtement, séparateurs en points de

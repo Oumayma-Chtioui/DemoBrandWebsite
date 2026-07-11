@@ -4,7 +4,7 @@ export default function PersonalShopperBanner({ settings }) {
   const number = (settings?.whatsapp || settings?.phone || "").replace(/\D/g, "");
   const link = number
     ? `https://wa.me/${number}?text=${encodeURIComponent(
-        "Bonjour Zanieri, j'aimerais des conseils pour choisir ma tenue."
+        "Bonjour store, j'aimerais des conseils pour choisir ma tenue."
       )}`
     : "#";
 

@@ -32,7 +32,7 @@ export default function Hero({ settings }) {
               href="/about"
               className="px-7 py-3.5 border border-ink-300 text-ink text-[12px] uppercase tracking-widest2 hover:border-ink transition-colors"
             >
-              La Maison Zanieri
+              La Maison store
             </Link>
           </div>
 
@@ -50,7 +50,7 @@ export default function Hero({ settings }) {
             {heroImageUrl ? (
               <Image
                 src={heroImageUrl}
-                alt="Zanieri"
+                alt="store"
                 fill
                 className="object-cover"
                 priority
@@ -59,7 +59,7 @@ export default function Hero({ settings }) {
               <div className="absolute inset-0 flex items-center justify-center p-10">
                 <Image
                   src="/logo.png"
-                  alt="Zanieri"
+                  alt="store"
                   width={280}
                   height={120}
                   className="w-full max-w-[240px] object-contain opacity-90"

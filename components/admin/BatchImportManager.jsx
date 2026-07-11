@@ -46,7 +46,7 @@ function downloadTemplate() {
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = "zanieri-modele-import-produits.csv";
+  a.download = "store-modele-import-produits.csv";
   a.click();
   URL.revokeObjectURL(url);
 }

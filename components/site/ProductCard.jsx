@@ -25,7 +25,7 @@ export default function ProductCard({ product }) {
           ) : (
             <div className="absolute inset-0 flex items-center justify-center">
               <span className="font-display italic text-ink-300 text-lg">
-                Zanieri
+                store
               </span>
             </div>
           )}

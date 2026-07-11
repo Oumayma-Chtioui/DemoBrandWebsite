@@ -3,7 +3,7 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 
 const CartContext = createContext(null);
-const STORAGE_KEY = "zanieri_cart_v1";
+const STORAGE_KEY = "store_cart_v1";
 
 function lineKey(item) {
   return `${item.id}__${item.size || "unique"}`;

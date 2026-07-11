@@ -1,5 +1,5 @@
 -- ============================================================================
--- Zanieri — Database schema
+-- store — Database schema
 -- Run this once in the Supabase SQL editor (Project > SQL Editor > New query).
 -- Safe to re-run: every statement uses IF NOT EXISTS / OR REPLACE where possible.
 -- ============================================================================
@@ -50,7 +50,7 @@ create index if not exists products_is_featured_idx on products (is_featured);
 -- ---------------------------------------------------------------------------
 create table if not exists store_settings (
   id integer primary key default 1,
-  store_name text not null default 'Zanieri',
+  store_name text not null default 'store',
   phone text,
   email text,
   address text,
@@ -158,7 +158,7 @@ create policy "Admin manage reviews" on reviews for all
 insert into store_settings (id, store_name, hero_title, hero_subtitle)
 values (
   1,
-  'Zanieri',
+  'store',
   'L''élégance masculine, taillée pour la Tunisie.',
   'Costumes, chemises et pièces sur-mesure — commandez en un message.'
 )

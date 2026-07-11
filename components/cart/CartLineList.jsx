@@ -34,7 +34,7 @@ export default function CartLineList() {
               <Image src={line.imageUrl} alt={line.name} fill className="object-cover" />
             ) : (
               <div className="h-full w-full flex items-center justify-center font-display italic text-ink-300 text-xs">
-                Zanieri
+                store
               </div>
             )}
           </div>

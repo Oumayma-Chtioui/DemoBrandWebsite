@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 export const metadata = {
   title: "La Maison",
   description:
-    "L'histoire de Zanieri, maison de prêt-à-porter pour homme basée en Tunisie.",
+    "L'histoire de store, maison de prêt-à-porter pour homme basée en Tunisie.",
 };
 
 export default async function AboutPage() {

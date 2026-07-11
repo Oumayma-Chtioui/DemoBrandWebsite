@@ -25,16 +25,16 @@ const plexMono = IBM_Plex_Mono({
 
 export const metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.zanieri.tn"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.store.tn"
   ),
   title: {
-    default: "Zanieri — Vêtements pour homme, Tunisie",
-    template: "%s | Zanieri",
+    default: "store — Vêtements pour homme, Tunisie",
+    template: "%s | store",
   },
   description:
-    "Zanieri, maison de prêt-à-porter pour homme en Tunisie. Costumes, chemises, blazers et pièces sur-mesure. Commande directe par WhatsApp.",
+    "store, maison de prêt-à-porter pour homme en Tunisie. Costumes, chemises, blazers et pièces sur-mesure. Commande directe par WhatsApp.",
   keywords: [
-    "Zanieri",
+    "store",
     "vêtements homme Tunisie",
     "costume homme Tunisie",
     "chemise homme",

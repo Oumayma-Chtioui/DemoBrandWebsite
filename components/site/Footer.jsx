@@ -11,7 +11,7 @@ export default function Footer({ settings, categories = [] }) {
         <div>
           <Image
             src="/logo.png"
-            alt={settings?.storeName || "Zanieri"}
+            alt={settings?.storeName || "store"}
             width={140}
             height={60}
             className="h-11 w-auto object-contain mb-4 invert"
@@ -92,7 +92,7 @@ export default function Footer({ settings, categories = [] }) {
 
       <div className="border-t border-ink-700">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row justify-between gap-2 text-[11px] tracking-widest2 uppercase text-ink-400">
-          <span>© {year} {settings?.storeName || "Zanieri"}</span>
+          <span>© {year} {settings?.storeName || "store"}</span>
           <span>Conçu et cousu en Tunisie</span>
         </div>
       </div>

@@ -49,7 +49,7 @@ export default function AdminAuthGate({ children }) {
           <div className="flex justify-center mb-6">
             <Image
               src="/logo.png"
-              alt="Zanieri"
+              alt="store"
               width={140}
               height={60}
               className="h-12 w-auto object-contain"

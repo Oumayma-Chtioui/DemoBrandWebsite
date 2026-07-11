@@ -1,5 +1,5 @@
 -- ============================================================================
--- Zanieri — Storage buckets
+-- store — Storage buckets
 -- Run after 001_schema.sql. Creates the two public buckets used by the
 -- admin panel (product photos, homepage hero image) and the policies that
 -- let anyone read them while only signed-in admins can upload/delete.

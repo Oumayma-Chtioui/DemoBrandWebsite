@@ -1,5 +1,5 @@
 {
-  "name": "zanieri-shop",
+  "name": "store-shop",
   "compatibility_date": "2026-07-10",
   "observability": { "enabled": true },
   "compatibility_flags": ["nodejs_compat"]

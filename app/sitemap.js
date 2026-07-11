@@ -1,7 +1,7 @@
 import { getProducts } from "@/lib/products";
 
 export default async function sitemap() {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://www.zanieri.tn";
+  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://www.store.tn";
   const products = await getProducts();
 
   const staticRoutes = ["", "/products", "/about"].map((path) => ({

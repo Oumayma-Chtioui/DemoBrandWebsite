@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 export const metadata = {
   title: "Boutique",
   description:
-    "Costumes, chemises, blazers et accessoires pour homme. Découvrez la collection Zanieri.",
+    "Costumes, chemises, blazers et accessoires pour homme. Découvrez la collection store.",
 };
 
 export default async function ProductsPage({ searchParams }) {

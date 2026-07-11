@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Menu, X, ShoppingBag } from "lucide-react";
 import { useCart } from "../cart/CartContext";
 
-export default function Header({ categories = [], storeName = "Zanieri" }) {
+export default function Header({ categories = [], storeName = "store" }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const { count, setIsOpen } = useCart();
 

@@ -64,7 +64,7 @@ export default function CartDrawer() {
                       />
                     ) : (
                       <div className="h-full w-full flex items-center justify-center font-display italic text-ink-300 text-xs">
-                        Zanieri
+                        store
                       </div>
                     )}
                   </div>

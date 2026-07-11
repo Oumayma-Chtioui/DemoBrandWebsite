@@ -7,7 +7,7 @@ export default function WhatsAppFloat({ settings }) {
   if (!number) return null;
 
   const link = `https://wa.me/${number}?text=${encodeURIComponent(
-    "Bonjour Zanieri, j'aimerais avoir plus d'informations."
+    "Bonjour store, j'aimerais avoir plus d'informations."
   )}`;
 
   return (
@@ -15,7 +15,7 @@ export default function WhatsAppFloat({ settings }) {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Contacter Zanieri sur WhatsApp"
+      aria-label="Contacter store sur WhatsApp"
       className="fixed bottom-6 right-6 z-30 h-14 w-14 rounded-full bg-pine text-ivory flex items-center justify-center shadow-soft hover:bg-pine-light transition-colors"
     >
       <MessageCircle size={24} strokeWidth={1.6} />

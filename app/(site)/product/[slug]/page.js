@@ -46,7 +46,7 @@ export default async function ProductPage({ params }) {
             ) : (
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="font-display italic text-ink-300 text-xl">
-                  Zanieri
+                  store
                 </span>
               </div>
             )}
