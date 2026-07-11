@@ -1,6 +1,11 @@
 {
   "name": "store-shop",
+  "main": ".open-next/worker.js",
   "compatibility_date": "2026-07-10",
-  "observability": { "enabled": true },
-  "compatibility_flags": ["nodejs_compat"]
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": { "enabled": true }
 }
